@@ -1,0 +1,42 @@
+#contentShowTickets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* table{
+    table-layout: fixed;
+    width: 100%;
+} */
+#problemaIndex {
+    width: 200px;
+    overflow: hidden;
+    white-space: unset;
+    height: 100px;
+}
+
+#actualizaciones {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#descripcion {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.thumbnail {
+    width: 100px; /* Tamaño fijo de ancho para la miniatura */
+    height: 100px; /* Tamaño fijo de alto para la miniatura */
+    object-fit: cover; /* Ajustar la imagen dentro del tamaño fijo */
+    margin-right: 10px; /* Espacio entre las miniaturas */
+}
